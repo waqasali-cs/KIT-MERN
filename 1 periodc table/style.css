@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+h1{
+    margin: 2rem;
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw ;
+}
+
+td{
+    padding: 0.2rem;
+}
+
+.numbering{
+    text-align: center;
+    border: none;
+}
+
+
+span{
+    padding: 1rem;
+    text-align:center;
+    border: none;
+}
+
+.empty{
+    border: none;
+}
+
+.divider{
+    padding: 1rem;
+}
+
+.pink{
+    background-color: pink;
+
+}
+
+
+.Lpink{
+    background-color: rgb(246, 226, 202);
+
+}
+
+.purple{
+    background-color: rgb(217, 171, 232);
+
+}
+
+.Lpurple{
+    background-color: lavenderblush;
+}
+
+.orange{
+    background-color: rgb(255, 189, 66);
+
+}
+
+.Yellow{
+    background-color: rgb(234, 234, 53);
+
+}
+
+.Sblue{
+    background-color: skyblue;
+}
+
+.Lgreen{
+    background-color: rgba(0, 128, 0, 0.389);
+}
+
+@media screen and (max-width:800px) {
+
+    html{
+        font-size: 50%;
+    }
+    
+}

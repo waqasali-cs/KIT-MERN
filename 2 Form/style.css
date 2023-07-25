@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width: 50%;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 4rem;
+
+}
+
+.internal-form{
+    width: 96%;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    background-color: rgba(162, 162, 219, 0.559);
+}
+
+.internal-form h4{
+    background-color: rgba(171, 249, 54, 0.851);
+    padding: 0.5rem 1rem;
+    margin: 2rem 4rem;
+    font-size: 1.6rem;
+}
+
+.sections{
+    padding: 1rem 0;
+    margin: 0 4rem 0 8rem;
+    font-size: 1.4rem;
+    
+}
+
+td{
+    border: 2px solid;
+    height: 1rem;
+    background:white;
+}
+
+
+
+.name-table input,
+.B-type input[type='text'], .B-type {
+
+    width: 100%;
+
+}
+
+label{
+    padding-right: 1rem;
+}
+
+input{
+    outline: none;
+    border: none;
+    text-align: center;
+    background:transparent;
+    border-bottom: 2px solid;
+    
+    
+}
+
+input.name-block,
+.padding-2 input{
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.name-block {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.terms input[type='text']{
+    border: 2px solid;
+
+}
+
+.terms td{
+    border: none;
+    background-color: transparent;
+    
+}
+
+.terms tr td:first-child{
+    margin-bottom: 1rem;
+    padding-right: 3rem;
+}
+#sign{
+    margin-bottom: 1rem;
+}
+
+
+.no-border{
+    border: none;
+    background-color: transparent;
+}
+
+.padding-top{
+    padding-top: 1rem;
+}
+.padding-bottom{
+    padding-bottom: 1rem;
+}
+
+.page-num{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 2rem 0 0 0;
+}

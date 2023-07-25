@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 100%;
+    background-color:rgba(228, 224, 224, 0.727);
+    overflow: auto;
+    position: fixed;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    float: left;
+    list-style: none;
+    margin: 2rem;
+    padding-right: 3rem;
+}
+
+nav li:last-child{
+    padding: 0;
+}
+.who span{
+    color: aqua;
+}
+
+.logo{
+    float: left;
+    margin: 2rem;
+}
+
+header{
+    background-image:url("buildings.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: auto;
+    position:relative;
+    z-index: -1;
+}
+.hero-section{
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    height: inherit;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+
+}
+
+.hero-section h2{
+    font-size: 8rem;
+    text-transform: capitalize;
+    font-stretch: condensed;
+
+}
+
+.hero-section p,
+.hero-section a{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.hero-section h1,
+.hero-section p,
+.hero-section a{
+    text-shadow: 0.1rem 0.1rem 0.2rem  rgba(0, 0, 0, 0.733);
+}
+
+.btn{
+    display:block;
+    margin: auto;
+    background-color: rgb(141, 204, 45);
+    padding: 1rem 2rem;
+    width: fit-content;
+    border-radius: 1rem;
+}
+
+.what-section{
+    text-align: center;
+    background-color: azure;
+    padding: 1rem 0 3rem 0;
+}
+
+.centre{
+    text-align: center;
+}
+
+.what-section>h1{
+    padding: 2rem;
+    font-size: 4rem;
+}
+
+#g-building{
+
+    font-size: 2rem;
+
+}
+
+.what--1 h4{
+    margin: 1rem 0;
+
+}
+.who{
+    background-color: rgba(145, 183, 220, 0.377);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.who td{
+    width: 50%;
+}
+
+.who--image{
+    width: 100%;
+    min-height: 100vh;
+    
+
+}
+
+.who--we-are,
+.who--team{
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.who--we-are h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+    
+}
+
+.who--we-are p{
+    line-height: 1.5;
+    margin-bottom: 4rem;
+}
+
+.who--team h3{
+    font-size: 3rem;
+    text-decoration: none;
+    padding-bottom: 2rem;
+
+}
+
+.who--team li{
+    margin-bottom: 1rem;
+    margin-right: 20%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    text-transform: capitalize;
+    border-bottom:1px dashed ;
+}
+
+.client{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 2rem 0 2rem 0;
+}
+
+.client h2{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.client--logos img{
+    width: 10rem;
+    height:10rem;
+    margin: 0 6rem;
+    border-radius: 50%;
+
+}
+
+.contact table{
+    width: 100%;
+}
+.contact td{
+    width: 50%;
+    background-color: rgba(44, 67, 30, 0.084);
+}
+
+.contact td:first-child{
+    padding: 4rem;
+    background-color: greenyellow;
+}
+
+.contact td:first-child *{
+    margin: 1rem 0;
+}
+
+
+.contact input{
+    width: 100%;
+    padding: 2rem 1rem;
+}
+.contact h2{
+    font-size: 3rem;
+    
+}
+
+.contact textarea{
+    width: 100%;
+}
+.contact input[type='submit']{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border: none;
+    background-color:ghostwhite;
+}
+
+.contact iframe{
+    width: 90%;
+    height:70vh;
+    margin: auto 4rem;
+}
+
+footer h3{
+    background-color: rgba(100, 86, 86, 0.611);
+    padding: 4rem 0;
+    text-align: center;
+    font-size: 1.6rem;
+}
